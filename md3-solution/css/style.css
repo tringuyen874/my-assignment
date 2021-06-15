@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: black;
   background-color: white; 
 }
 #header-nav {
@@ -49,25 +49,21 @@ body {
 	font-size: 1.8em;
 	text-shadow: 1px 1px 1px #222;
 }
-#home-tile{
-	background-color: gray;
+
+.row{
+	margin: 10px;
+}
+#content-box {
+	margin: 10px;
 	color: black;
-	height: 1000px;
-	margin-top: 30px;
-	overflow: hidden;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+	height: 800px;
 }
-#paragraph-title{
+#item-name{
 	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
 }
-#paragraph-content{
-	padding: 0px 20px 0px 20px; 
-}
-@media (max-width: 767px) {
-	#home-tile{
-		max-width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-}
+
